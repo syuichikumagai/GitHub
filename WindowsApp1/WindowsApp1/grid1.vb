@@ -104,6 +104,10 @@
         End Try
     End Sub
 
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+
+    End Sub
+
     'Private Sub grid1_Load(sender As Object, e As EventArgs) Handles Me.Load
     '    '列ヘッダーの背景色をアイボリーにする
     '    DataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.Red
